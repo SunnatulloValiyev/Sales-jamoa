@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8F8F8;
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 400;
+
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+.navbar{
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+
+.main{
+    margin-left: 20%;
+    padding-top: 50px;
+}
+
+.navbar {
+    overflow:auto;
+}
+.logo {
+    text-decoration: none;
+    color: #013CC6;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link> span{
+    color: #0B63F8;
+    margin-top: 55px;
+    align-items: center;
+    display: flex;
+}
+.nav-item a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #131313;
+    align-items: center;
+    display: flex;
+}
+.nav-item {
+    margin-bottom: 35px;
+}
+.nav-item a:hover{
+    color: #0B63F8;
+}
+.help {
+    margin-top: 500px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #131313;
+    align-items: center;
+    display: flex;
+
+}
+.help img{
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.help:hover{
+    color: #0B63F8;
+}
+
+.nav-item img{
+    margin-right: 15px;
+}
+
+
+
+.search input{
+    border: none;
+    outline: none;
+    color: #ADA7A7;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.search{
+    width: 600px;
+    background: #fff;
+    padding: 15px;
+    padding-right: 300px;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.avatar-img{
+    margin-right: 17px;
+}
+
+
+
+.inform h1{
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+    margin-bottom: 24px;
+    margin-top: 30px;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer-box label{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.customer-box input{
+    padding: 13px 46px 13px 24px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    display: flex;
+}
+.customer-box input::placeholder{
+    opacity: 0.6;   
+}
+
+
+
