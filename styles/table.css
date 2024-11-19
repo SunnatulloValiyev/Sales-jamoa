@@ -6,11 +6,13 @@
 }
 
 table {
-    margin-top: 366px;
-    margin-left: 16%;
-    width: 1130px;
-    border-collapse:collapse ;
-    padding-left: 24px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 26.5%;
+    width: 1030px;
+    border-collapse:collapse ; 
+    
+    
 }
 .boks {
     margin-left: 24px;
