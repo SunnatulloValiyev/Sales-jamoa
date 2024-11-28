@@ -7,7 +7,6 @@ body{
     background-color: #F8F8F8;
     font-family: 'Poppins', 'sans-serif';
     font-weight: 400;
-
 }
 .container{
     width: 100%;
@@ -148,3 +147,53 @@ body{
 
 
 
+
+
+
+.main-min {
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tab {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1130px;
+    border-collapse: collapse; 
+    border-radius: 3px;
+    background-color: #fff;
+
+}
+
+.box {
+    cursor: pointer;
+}
+
+.tab th {
+    padding: 30px 20px;
+    text-align: left; 
+    font-family: 'Lato', sans-serif; 
+}
+
+.tab td {
+    padding: 25px 15px; 
+    font-family: 'Lato', sans-serif;
+
+}
+
+.tab th:first-child, 
+.tab td:first-child {
+    text-align: center; 
+}
+
+
+
+tbody tr td:nth-child(2) {
+    color: #0B63F8;
+}
